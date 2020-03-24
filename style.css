@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#Home {
+    background-color: #f3f3f3;
+    font-family: ヒラギノ角ゴ Pro;
+    font-weight: bold;
+    color: #212529;
+}
+
+#header img {
+    height: 480px;
+    width: 100%;
+}
+
+#header {
+    position: relative;
+}
+
+#header h1 {
+    position: absolute;
+    top:110px;
+    left: 160px;
+    color: #ffffff;
+    font-family: Athelas;
+    font-weight: Bold;
+    font-size: 94px;
+}
+
+#gnav {
+    margin: 10px;
+}
+
+#gnav ul {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 3%;
+    width: 94%;
+    max-width: 960px;
+}
+
+#gnav ul li {
+    position: relative;
+    float: left;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#gnav ul li a {
+    padding: 17px 1%;
+    width: 90%;
+    color: #444444;
+    text-align: center;
+    text-decoration: none;
+}
+
+#gnav ul li i {
+    padding: 5%
+    
+}
+
+.inner {
+    margin: 5%;
+}
+
+.section-title {
+    text-align: center;
+    margin: 5%;
+}
+
+.section-title-css {
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.section-main-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
