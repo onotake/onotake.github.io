@@ -77,7 +77,7 @@
 
 .section-main-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .text {
