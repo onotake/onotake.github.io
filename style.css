@@ -40,6 +40,41 @@
     margin-left: 10px;
 }
 
+.text {
+    margin-top: 6%;
+}
+
+.section-title-SKILL {
+    margin: 4%;
+    width: 89%;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.star-rating {
+    position: relative;
+    display:inline-block;
+    font-size: 25px;
+  }
+  .star-rating .star-rating-item{
+    position:absolute;
+    overflow: hidden;
+  }
+  .star-rating .star-rating-item:before{
+    content:"★★★";
+    color: #ffcc33;
+  }
+  .star-rating:after {
+    content:"★★★★★";
+    color: #ccc;
+  }
+
+  th {
+      text-align: center;
+      padding: .75rem;
+  } 
 
 
 
