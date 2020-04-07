@@ -51,6 +51,8 @@
 
 .card-header {
     text-align: center;
+    font-size: 120%;
+
 }
 .star {
     font-family: "Font Awesome 5 Free";
@@ -64,9 +66,17 @@
     font-weight: 400;
   }
 
+  .star[data-rate="1.0"]:before{ content: "\f005"; }
+
+  .star[data-rate="1.0"]:after{ content: "\f005\f005\f005\f005"; }
+
   .star[data-rate="3.0"]:before { content: "\f005\f005\f005"; }
 
   .star[data-rate="3.0"]:after{ content: "\f005\f005"; }
+
+  .star[data-rate="4.0"]:before{ content: "\f005\f005\f005\f005"; }
+
+  .star[data-rate="4.0"]:after{ content: "\f005"; }
 
   table {
     table-layout: fixed;
@@ -75,10 +85,12 @@
 
  th {
      text-align: center;
+     padding: 1%;
  }
 
  td {
      text-align: center;
+     padding: 1%;
  }
 
 
