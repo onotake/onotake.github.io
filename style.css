@@ -49,9 +49,14 @@
     width: 89%;
 }
 
+.card {
+    margin: 5%;
+}
+
 .card-header {
     text-align: center;
     font-size: 120%;
+    background-color: #ffffff;
 
 }
 .star {
@@ -92,6 +97,8 @@
      text-align: center;
      padding: 1%;
  }
+
+
 
 
 
