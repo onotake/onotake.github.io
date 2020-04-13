@@ -30,6 +30,20 @@
     color: #f3f3f3;
 }
 
+.profile-img {
+    width: 18rem;
+    height: auto;
+}
+
+.section-main-image {
+    text-align: center;
+}
+
+.section-main-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .section-title-block {
     text-align: center;
     font-family: Athelas;
@@ -38,10 +52,6 @@
 .section-title-css {
     font-size: 40px;
     margin-left: 10px;
-}
-
-.text {
-    margin-top: 6%;
 }
 
 .section-title {
@@ -98,6 +108,64 @@
      padding: 1%;
  }
 
+ .contact {
+     text-align: center;
+ }
+
+ .contact-img {
+     width: 15rem;
+     height: auto;
+ }
+
+ .contact-twitter{
+     text-align: center;
+     font-size: 2rem;
+ }
+
+ .contact-p {
+     text-align: center;
+     margin: 1rem;
+ }
+
+ #footer {
+    background-color: #242229;
+    text-align: center;
+    color: #f3f3f3;
+    padding: 1%;
+    margin-top: 6%;
+}
+
+.footer-link ul {
+    padding: 1%;
+}
+
+li {
+    display: inline;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #f3f3f3 ;
+    margin: 3%;
+    
+}
+
+a :link {
+    color: #f3f3f3;
+}
+
+a :visited {
+    color: #f3f3f3;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.inner p {
+    font-size: 0.5rem;
+    margin: auto;
+}
 
 
 

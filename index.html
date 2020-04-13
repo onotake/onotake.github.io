@@ -39,8 +39,6 @@
 <link rel="stylesheet" href="style.css">
 <!--font-awesome-->
 <script src="https://kit.fontawesome.com/70e5631a1c.js" crossorigin="anonymous"></script>
-<!--formrun-->
-<script src="https://sdk.form.run/js/v2/formrun.js"></script>
 </head>
 
 <body id="Home">
@@ -81,15 +79,15 @@
             <main id="contents">
                 <section class="section" id="PROFILE">
                         <div class="section-title-block">
-                            <h1 class="section-title-PROFILE"><span class="section-title-css"><i class="far fa-address-card fa-fw"></i> PROFILE</span></h1>
+                            <h1 class="section-title"><span class="section-title-css"><i class="far fa-address-card fa-fw"></i> PROFILE</span></h1>
                         </div>
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="col-xs-12 col-lg-6 section-main-image">
-                                <img class = "mx-auto d-block" src="portfolio-pic.jpg" alt="プロフィール写真">
+                                <img class = "profile-img" src="portfolio-pic.jpg" alt="プロフィール写真">
                             </div>
-                            <div class="col-xs-12 col-lg-6 text">
+                            <div class="col-xs-12 col-lg-6 section-main-text">
                                 <p class="text">
-                                    &emsp;はじめまして！小野原　武(<a href="https://twitter.com/@0rrp4bqZNIndsgB">@tkr_si2</a>)と申します。<br>私は今まで働いていて楽しいと思える職業を探していました。そんな中でWEBデザインというクリエイティブな仕事に興味を持ち、日本デザインスクールにて7ヶ月ほどWEBデザインを学びました。現在はFront Hacksというオンライン教材でフロントエンドの勉強をしております。これから更にスキルアップし市場価値の高い人材になると共に人生を楽しく豊かに過ごしていきたいと思っております！（2020年3月20日更新）
+                                    はじめまして！小野原　武(<a href="https://twitter.com/@0rrp4bqZNIndsgB">@tkr_si2</a>)と申します。<br>私は今まで働いていて楽しいと思える職業を探していました。そんな中でWEBデザインというクリエイティブな仕事に興味を持ち、日本デザインスクールにて7ヶ月ほどWEBデザインを学びました。現在はFront Hacksというオンライン教材でフロントエンドの勉強をしております。これから更にスキルアップし市場価値の高い人材になると共に人生を楽しく豊かに過ごしていきたいと思っております！（2020年3月20日更新）
                                 </p>
                             </div>
                         </div>    
@@ -234,43 +232,31 @@
                     <div class="section-title-block">
                         <h1 class="section-title"><span class="section-title-css"><i class="far fa-envelope"></i> CONTACT</span></h1>
                     </div>
-                        <!-- Do not change class, action, method. -->
-                    <form class="formrun" action="https://form.run/api/v1/r/mq7yys32st5aqeh48696ml8z" method="post">
-                        <!-- ↓You can add/change fields. -->
-                        <div>
-                        <label>お名前</label>
-                        <input name="お名前" type="text">
-                        </div>
-                    
-                        <div>
-                        <label>メールアドレス [必須]</label>
-                        <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
-                        <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
-                        </div>
-                    
-                        <div>
-                        <label>お問い合わせ [必須]</label>
-                        <textarea name="お問い合わせ" data-formrun-required></textarea>
-                        <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
-                        </div>
-                    
-                        <div>
-                        <label>個人情報利用同意 [必須]</label>
-                        <input type="checkbox" name="個人情報利用同意" data-formrun-required>
-                        <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
-                        </div>
-                    
-                        <!-- ボット投稿をブロックするためのタグ -->
-                        <div class="_formrun_gotcha">
-                        <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
-                        <label for="_formrun_gotcha">If you are a human, ignore this field</label>
-                        <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-                        </div>
-                    
-                        <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
-                    </form>
+                    <div class="contact">
+                        <img class = "contact-img" src="portfolio-pic.jpg" alt="プロフィール写真">
+                    </div>
+                    <div class="contact-twitter">
+                    <a href="https://twitter.com/@0rrp4bqZNIndsgB"><i class="fab fa-twitter fa-fw"></i> Twitter</a>
+                    </div>
+                    <div class="contact-p">
+                        <p>ご依頼、ご相談はTwitterのDMにご連絡ください！ご覧いただきありがとうございました！
+                    </div>
                 </section>
             </main>
+
+            <footer id="footer">
+                <div class="inner">
+                  <nav class="footer-link">
+                    <ul>
+                      <li><a href="#PROFILE"><i class="fas fa-address-card"></i> PROFILE</a></li>
+                      <li><a href="#SKILL"><i class="fas fa-lightbulb"></i> SKILL</a></li>
+                      <li><a href="#WORKS"><i class="fas fa-list-alt"></i> WORKS</a></li>
+                      <li><a href="#CONTACT"><i class="fas fa-envelope"></i> CONTACT</a></li>
+                    </ul>
+                  </nav>
+                  <p class="copyright">Copyright © Takeru Onohara. All Rights Reserved.</p>
+                </div>
+              </footer>
         </div>  
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
