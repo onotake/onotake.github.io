@@ -82,12 +82,12 @@
                             <h1 class="section-title"><span class="section-title-css"><i class="far fa-address-card fa-fw"></i> PROFILE</span></h1>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col-xs-12 col-lg-6 section-main-image">
+                            <div class="col-xs-12 col-lg-4 section-main-image">
                                 <img class = "profile-img" src="portfolio-pic.jpg" alt="プロフィール写真">
                             </div>
-                            <div class="col-xs-12 col-lg-6 section-main-text">
+                            <div class="col-xs-12 col-lg-7 section-main-text">
                                 <p class="text">
-                                    はじめまして！小野原　武(<a href="https://twitter.com/@0rrp4bqZNIndsgB">@tkr_si2</a>)と申します。<br>私は今まで働いていて楽しいと思える職業を探していました。そんな中でWEBデザインというクリエイティブな仕事に興味を持ち、日本デザインスクールにて7ヶ月ほどWEBデザインを学びました。現在はFront Hacksというオンライン教材でフロントエンドの勉強をしております。これから更にスキルアップし市場価値の高い人材になると共に人生を楽しく豊かに過ごしていきたいと思っております！（2020年3月20日更新）
+                                    はじめまして！小野原 武(<a href="https://twitter.com/@0rrp4bqZNIndsgB">@tkr_si2</a>)と申します。私は今まで働いていて楽しいと思える職業を探していました。そんな中でWEBデザインというクリエイティブな仕事に興味を持ち、日本デザインスクールにて7ヶ月ほどWEBデザインを学びました。現在はFront Hacksというオンライン教材でフロントエンドの勉強をしております。これから更にスキルアップし市場価値の高い人材になると共に人生を楽しく豊かに過ごしていきたいと思っております！（2020年3月20日更新）
                                 </p>
                             </div>
                         </div>    
@@ -262,4 +262,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $('.navbar-nav>li>a , .dropdown-menu>a').on('click', function(){
+            if(this.id != 'navbarDropdown'){
+              $('.navbar-collapse').collapse('hide');
+            }
+        });
+    </script>
 </body>

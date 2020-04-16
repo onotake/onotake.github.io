@@ -16,6 +16,10 @@
     font-family: athelas;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 .jumbotron {
     background:url(https://github.com/onotake/onotake.github.io/blob/master/portforio_top.jpg?raw=true)center no-repeat;
     background-size: cover;
@@ -37,6 +41,7 @@
 
 .section-main-image {
     text-align: center;
+    margin-left: 2%;
 }
 
 .section-main-text {
