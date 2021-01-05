@@ -1,272 +1,379 @@
-<!doctype html>
-<html lang="ja" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/website#">
-<!--ogp-->
-<head> 
-<meta charset="UTF-8">
-<!--viewport=レスポンシブ-->
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-<!--電話番号の自動リンク機能を無効化-->
-<meta name="format-detection" content="telephone=no">
-<title>WEBデザイナー　オノハラタケル</title>
-<!--リセットCSS-->
-<link href="https://unpkg.com/sanitize.css" rel="stylesheet"/> 
-<!--RSS ※href=にサイトのURLを入力-->
-<link rel="alternate" type="application/rss+xml" title="RSS FEED" href="">
-<!--ogpのページタイトル-->
-<meta property="og:title" content="WEBデザイナー　オノハラタケル">
-<!--ogpの表示画像-->
-<meta property="og:image" content="photo/portforio_top.jpg">
-<!--ogpのページ説明文-->
-<meta property="og:description" content="Takeru Onoharaのポートフォリオ です。">
-<!--ogpのサイト名-->
-<meta name="description" content="WEBデザイナー、Takeru Onotake(オノタケ)のポートです。">
-<!--OGP画像の横幅を指定-->
-<meta property="og:image:width" content="1200">
-<!--OGP画像の縦幅を指定-->
-<meta property="og:image:height" content="630">
-<!--URLの正規化　※絶対パスを入力-->
-<link rel="canonical" href="">
-<!--FB APP IDを指定-->
-<meta property="fb:app_id" content="642390193222976">
-<!--Twitter用に表示UIを明示的に指定-->
-<meta name="twitter:card" content="summary_large_image">
-<!--Twitterのユーザー名を指定-->
-<meta name="twitter:site" content="@tkr_si2" />
-<!--faviconを指定-->
-<link rel="shortcut icon" href="">
-<!--bootsrap css-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
-<!--font-awesome-->
-<script src="https://kit.fontawesome.com/70e5631a1c.js" crossorigin="anonymous"></script>
-</head>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!--viewport=レスポンシブ-->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <!--電話番号の自動リンク機能を無効化-->
+    <meta name="format-detection" content="telephone=no" />
+    <title>PORTFOLIO オノハラタケル</title>
+    <!--リセットCSS-->
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <!--Twitter用に表示UIを明示的に指定-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!--Twitterのユーザー名を指定-->
+    <meta name="twitter:site" content="@tkr_si2" />
+    <!--faviconを指定-->
+    <link rel="shortcut icon" href="" />
+    <!--bootstrap css-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!--font-awesome-->
+    <script
+      src="https://kit.fontawesome.com/70e5631a1c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body id="Home">
+  <body id="Home">
     <div id="wrapper">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg sticky-top navbar-light" style="background-color:#f3f3f3;">
-                <a class="navbar-brand" href="#header">PORTFOLIO</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link"　data-toggle="collapse" data-target=".navbar-collapse.show" href="#PROFILE"><i class="far fa-address-card fa-fw"></i>PROFILE</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link"　data-toggle="collapse" data-target=".navbar-collapse.show" href="#SKILL"><i class="far fa-lightbulb fa-fw"></i>SKILL</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link"　data-toggle="collapse" data-target=".navbar-collapse.show" href="#WORKS"><i class="fas fa-list-ul fa-fw"></i>WORKS</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link"　data-toggle="collapse" data-target=".navbar-collapse.show" href="#CONTACT"><i class="far fa-envelope fa-fw"></i>CONTACT</a>
-                                </li>
-                            </ul>
-                    </div>   
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg sticky-top navbar-light"
+          style="background-color: #f3f3f3"
+        >
+          <a class="navbar-brand" href="#header">PORTFOLIO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  href="#PROFILE"
+                  ><i class="far fa-address-card fa-fw"></i>PROFILE</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  href="#SKILL"
+                  ><i class="far fa-lightbulb fa-fw"></i>SKILL</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  href="#WORKS"
+                  ><i class="fas fa-list-ul fa-fw"></i>WORKS</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  href="#CONTACT"
+                  ><i class="far fa-envelope fa-fw"></i>CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <header id="header">
+          <div class="jumbotron">
+            <div class="container">
+              <h1 class="display-4">Takeru Onohara's Portfolio</h1>
+              <p class="lead">Web Enjineer</p>
+            </div>
+          </div>
+        </header>
+
+        <main id="contents">
+          <section class="section" id="PROFILE">
+            <div class="section-title-block">
+              <h1 class="section-title">
+                <span class="section-title-css"
+                  ><i class="far fa-address-card fa-fw"></i> PROFILE</span
+                >
+              </h1>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-xs-12 col-lg-4 section-main-image">
+                <img
+                  class="profile-img"
+                  src="pic/portfolio-pic.jpg"
+                  alt="プロフィール写真"
+                />
+              </div>
+              <div class="col-xs-12 col-lg-7 section-main-text">
+                <p class="text">
+                  はじめまして！小野原 武(<a
+                    href="https://twitter.com/@0rrp4bqZNIndsgB"
+                    >@tkr_si2</a
+                  >)と申します。私は今まで働いていて楽しいと思える職業を探していました。そんな中でWEBデザインというクリエイティブな仕事に興味を持ち、日本デザインスクールにて7ヶ月ほどWEBデザインを学びました。現在はFront
+                  Hacksというオンライン教材でフロントエンドの勉強をしております。これから更にスキルアップし市場価値の高い人材になると共に人生を楽しく豊かに過ごしていきたいと思っております！（2020年3月20日更新）
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section" id="SKILL">
+            <div class="section-title-block">
+              <h1 class="section-title">
+                <span class="section-title-css"
+                  ><i class="far fa-lightbulb fa-fw"></i>SKILL</span
+                >
+              </h1>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <i class="fas fa-desktop fa-fw"></i> デザイン・コーディング
+              </div>
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <th scope="col">技術</th>
+                    <th>経験年数</th>
+                    <th>スキル</th>
+                  </tr>
+                  <tr>
+                    <td>Photoshop</td>
+                    <td>１年</td>
+                    <td><span class="star" data-rate="4.0"></span></td>
+                  </tr>
+                  <tr>
+                    <td>HTML5</td>
+                    <td>１年</td>
+                    <td><span class="star" data-rate="3.0"></span></td>
+                  </tr>
+                  <tr>
+                    <td>CSS3</td>
+                    <td>１年</td>
+                    <td><span class="star" data-rate="3.0"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Bootstrap</td>
+                    <td>１年未満</td>
+                    <td><span class="star" data-rate="3.0"></span></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <i class="fas fa-desktop fa-fw"></i> フロントエンド
+              </div>
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <th scope="col">技術</th>
+                    <th>経験年数</th>
+                    <th>スキル</th>
+                  </tr>
+                  <tr>
+                    <td>javascrpt</td>
+                    <td>１年未満</td>
+                    <td><span class="star" data-rate="1.0"></span></td>
+                  </tr>
+                  <tr>
+                    <td>jQuery</td>
+                    <td>１年未満</td>
+                    <td><span class="star" data-rate="1.0"></span></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <i class="fas fa-briefcase fa-fw"></i> その他
+              </div>
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <th scope="col">技術</th>
+                    <th>経験年数</th>
+                    <th>スキル</th>
+                  </tr>
+                  <tr>
+                    <td>GitHub</td>
+                    <td>１年未満</td>
+                    <td><span class="star" data-rate="3.0"></span></td>
+                  </tr>
+                  <tr>
+                    <td>slack</td>
+                    <td>１年</td>
+                    <td><span class="star" data-rate="4.0"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Chatwork</td>
+                    <td>１年</td>
+                    <td><span class="star" data-rate="4.0"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Zoom</td>
+                    <td>１年</td>
+                    <td><span class="star" data-rate="3.0"></span></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <section class="section" id="WORKS">
+            <div class="section-title-block">
+              <h1 class="section-title">
+                <span class="section-title-css"
+                  ><i class="fas fa-list-ul fa-fw"></i>WORKS</span
+                >
+              </h1>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-lg-4">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="https://github.com/onotake/onotake.github.io/blob/master/pic/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-04-09%2014.46.51.png?raw=true"
+                    alt="ポートフォリオのイメージ画像"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">自分自身のポートフォリオです。</p>
+                    <a href="" class="btn btn-primary">詳細を見る</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-4">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="https://github.com/onotake/onotake.github.io/blob/master/pic/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-04-09%2015.21.36.png?raw=true"
+                    alt="大薄経営会計事務所LPのイメージ画像"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">経営会計事務所のLPです。</p>
+                    <a
+                      href="https://github.com/onotake/onotake.github.io/blob/master/pic/%E5%A4%A7%E8%96%84%E7%B5%8C%E5%96%B6%E4%BC%9A%E8%A8%88%E4%BA%8B%E5%8B%99%E6%89%80LP.jpg?raw=true"
+                      class="btn btn-primary"
+                      >詳細を見る</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-4">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="https://github.com/onotake/onotake.github.io/blob/master/pic/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-04-09%2019.57.46.png?raw=true"
+                    alt="デザイン集のイメージ画像"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">デザイン集です。</p>
+                    <a
+                      href="https://github.com/onotake/onotake.github.io/blob/master/pic/design_portfolio%20.pdf"
+                      class="btn btn-primary"
+                      >詳細を見る</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section" id="CONTACT">
+            <div class="section-title-block">
+              <h1 class="section-title">
+                <span class="section-title-css"
+                  ><i class="far fa-envelope"></i> CONTACT</span
+                >
+              </h1>
+            </div>
+            <div class="contact">
+              <img
+                class="contact-img"
+                src="pic/portfolio-pic.jpg"
+                alt="プロフィール写真"
+              />
+            </div>
+            <div class="contact-twitter">
+              <a href="https://twitter.com/@0rrp4bqZNIndsgB"
+                ><i class="fab fa-twitter fa-fw"></i> @tkr_si2</a
+              >
+            </div>
+            <div class="contact-p">
+              <p>
+                デザインのご相談、ご依頼はTwitterのDMにご連絡ください！ご覧いただきありがとうございました！
+              </p>
+            </div>
+          </section>
+        </main>
+
+        <footer id="footer">
+          <div class="inner">
+            <nav class="footer-link">
+              <ul>
+                <li>
+                  <a href="#PROFILE"
+                    ><i class="fas fa-address-card"></i> PROFILE</a
+                  >
+                </li>
+                <li>
+                  <a href="#SKILL"><i class="fas fa-lightbulb"></i> SKILL</a>
+                </li>
+                <li>
+                  <a href="#WORKS"><i class="fas fa-list-alt"></i> WORKS</a>
+                </li>
+                <li>
+                  <a href="#CONTACT"><i class="fas fa-envelope"></i> CONTACT</a>
+                </li>
+              </ul>
             </nav>
-
-            <header id="header">
-                <div class="jumbotron">
-                    <div class="container">
-                        <h1 class="display-4">Takeru Onohara's Portfolio</h1>
-                        <p class="lead">Web　Designer</p>
-                    </div>
-                </div>
-            </header>
-
-            <main id="contents">
-                <section class="section" id="PROFILE">
-                        <div class="section-title-block">
-                            <h1 class="section-title"><span class="section-title-css"><i class="far fa-address-card fa-fw"></i> PROFILE</span></h1>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-xs-12 col-lg-4 section-main-image">
-                                <img class = "profile-img" src="pic/portfolio-pic.jpg" alt="プロフィール写真">
-                            </div>
-                            <div class="col-xs-12 col-lg-7 section-main-text">
-                                <p class="text">
-                                    はじめまして！小野原 武(<a href="https://twitter.com/@0rrp4bqZNIndsgB">@tkr_si2</a>)と申します。私は今まで働いていて楽しいと思える職業を探していました。そんな中でWEBデザインというクリエイティブな仕事に興味を持ち、日本デザインスクールにて7ヶ月ほどWEBデザインを学びました。現在はFront Hacksというオンライン教材でフロントエンドの勉強をしております。これから更にスキルアップし市場価値の高い人材になると共に人生を楽しく豊かに過ごしていきたいと思っております！（2020年3月20日更新）
-                                </p>
-                            </div>
-                        </div>    
-                </section>
-
-                <section class="section" id="SKILL">
-                    <div class="section-title-block">
-                        <h1 class="section-title"><span class="section-title-css"><i class="far fa-lightbulb fa-fw"></i>SKILL</span></h1>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                           <i class="fas fa-desktop fa-fw"></i> デザイン・コーディング
-                        </div>
-                        <div class="card-body">
-                          <table>
-                              <tr>
-                                  <th scope="col">技術</th>
-                                  <th>経験年数</th>
-                                  <th>スキル</th>
-                              </tr>
-                              <tr>
-                                <td> Photoshop</td>
-                                <td> １年</td>
-                                <td><span class="star" data-rate="4.0"></span></td>
-                              </tr>
-                              <tr>
-                                  <td> HTML5</td>
-                                  <td> １年</td>
-                                  <td><span class="star" data-rate="3.0"></span></td>
-                              </tr>
-                              <tr>
-                                <td> CSS3</td>
-                                <td> １年</td>
-                                <td><span class="star" data-rate="3.0"></span></td>
-                              </tr>
-                              <tr>
-                                <td> Bootstrap</td>
-                                <td> １年未満</td>
-                                <td><span class="star" data-rate="3.0"></span></td>
-                              </tr>
-                          </table>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header">
-                            <i class="fas fa-desktop fa-fw"></i> フロントエンド
-                        </div>
-                        <div class="card-body">
-                          <table>
-                              <tr>
-                                  <th scope="col">技術</th>
-                                  <th>経験年数</th>
-                                  <th>スキル</th>
-                              </tr>
-                              <tr>
-                                <td> javascrpt</td>
-                                <td> １年未満</td>
-                                <td><span class="star" data-rate="1.0"></span></td>
-                              </tr>
-                              <tr>
-                                  <td> jQuery</td>
-                                  <td> １年未満</td>
-                                  <td><span class="star" data-rate="1.0"></span></td>
-                              </tr>
-                          </table>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header">
-                            <i class="fas fa-briefcase fa-fw"></i> その他
-                        </div>
-                        <div class="card-body">
-                          <table>
-                              <tr>
-                                  <th scope="col">技術</th>
-                                  <th>経験年数</th>
-                                  <th>スキル</th>
-                              </tr>
-                              <tr>
-                                <td> GitHub</td>
-                                <td> １年未満</td>
-                                <td><span class="star" data-rate="3.0"></span></td>
-                              </tr>
-                              <tr>
-                                  <td> slack</td>
-                                  <td> １年</td>
-                                  <td><span class="star" data-rate="4.0"></span></td>
-                              </tr>
-                              <tr>
-                                <td> Chatwork</td>
-                                <td> １年</td>
-                                <td><span class="star" data-rate="4.0"></span></td>
-                            </tr>
-                            <tr>
-                                <td> Zoom</td>
-                                <td> １年</td>
-                                <td><span class="star" data-rate="3.0"></span></td>
-                            </tr>
-                          </table>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section" id="WORKS">
-                    <div class="section-title-block">
-                        <h1 class="section-title"><span class="section-title-css"><i class="fas fa-list-ul fa-fw"></i>WORKS</span></h1>
-                    </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-lg-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="https://github.com/onotake/onotake.github.io/blob/master/pic/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-04-09%2014.46.51.png?raw=true" alt="ポートフォリオのイメージ画像">
-                                    <div class="card-body">
-                                            <p class="card-text">自分自身のポートフォリオです。</p>
-                                            <a href="" class="btn btn-primary">詳細を見る</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-lg-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="https://github.com/onotake/onotake.github.io/blob/master/pic/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-04-09%2015.21.36.png?raw=true" alt="大薄経営会計事務所LPのイメージ画像">
-                                    <div class="card-body">
-                                         <p class="card-text">経営会計事務所のLPです。</p>
-                                        <a href="https://github.com/onotake/onotake.github.io/blob/master/pic/%E5%A4%A7%E8%96%84%E7%B5%8C%E5%96%B6%E4%BC%9A%E8%A8%88%E4%BA%8B%E5%8B%99%E6%89%80LP.jpg?raw=true" class="btn btn-primary">詳細を見る</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-lg-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="https://github.com/onotake/onotake.github.io/blob/master/pic/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-04-09%2019.57.46.png?raw=true" alt="デザイン集のイメージ画像">
-                                    <div class="card-body">
-                                         <p class="card-text">デザイン集です。</p>
-                                        <a href="https://github.com/onotake/onotake.github.io/blob/master/pic/design_portfolio%20.pdf" class="btn btn-primary">詳細を見る</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-
-                <section class="section" id="CONTACT">
-                    <div class="section-title-block">
-                        <h1 class="section-title"><span class="section-title-css"><i class="far fa-envelope"></i> CONTACT</span></h1>
-                    </div>
-                    <div class="contact">
-                        <img class = "contact-img" src="pic/portfolio-pic.jpg" alt="プロフィール写真">
-                    </div>
-                    <div class="contact-twitter">
-                    <a href="https://twitter.com/@0rrp4bqZNIndsgB"><i class="fab fa-twitter fa-fw"></i> @tkr_si2</a>
-                    </div>
-                    <div class="contact-p">
-                        <p>デザインのご相談、ご依頼はTwitterのDMにご連絡ください！ご覧いただきありがとうございました！
-                    </div>
-                </section>
-            </main>
-
-            <footer id="footer">
-                <div class="inner">
-                  <nav class="footer-link">
-                    <ul>
-                      <li><a href="#PROFILE"><i class="fas fa-address-card"></i> PROFILE</a></li>
-                      <li><a href="#SKILL"><i class="fas fa-lightbulb"></i> SKILL</a></li>
-                      <li><a href="#WORKS"><i class="fas fa-list-alt"></i> WORKS</a></li>
-                      <li><a href="#CONTACT"><i class="fas fa-envelope"></i> CONTACT</a></li>
-                    </ul>
-                  </nav>
-                  <p class="copyright">Copyright © Takeru Onohara. All Rights Reserved.</p>
-                </div>
-              </footer>
-        </div>  
+            <p class="copyright">
+              Copyright © Takeru Onohara. All Rights Reserved.
+            </p>
+          </div>
+        </footer>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        $('.navbar-nav>li>a , .dropdown-menu>a').on('click', function(){
-            if(this.id != 'navbarDropdown'){
-              $('.navbar-collapse').collapse('hide');
-            }
-        });
+      $(".navbar-nav>li>a , .dropdown-menu>a").on("click", function () {
+        if (this.id != "navbarDropdown") {
+          $(".navbar-collapse").collapse("hide");
+        }
+      });
     </script>
-</body>
+  </body>
+</html>
