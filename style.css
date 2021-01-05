@@ -2,186 +2,189 @@
 /* CSS Document */
 
 #Home {
-    background-color: #f3f3f3;
-    font-family: ヒラギノ角ゴ Pro;
-    font-weight: bold;
-    color: #212529;
+  background-color: #f3f3f3;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  color: #212529;
 }
 
 .navbar-brand {
-    font-family: athelas;
+  font-family: athelas;
 }
 
 .nav-link {
-    font-family: athelas;
+  font-family: athelas;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .jumbotron {
-    background:url(https://github.com/onotake/onotake.github.io/blob/master/pic/portforio_top.jpg?raw=true)center no-repeat;
-    background-size: cover;
-    font-family: Athelas;
+  background: url(https://github.com/onotake/onotake.github.io/blob/master/pic/portforio_top.jpg?raw=true)
+    center no-repeat;
+  background-size: cover;
+  font-family: Athelas;
 }
 
 .display-4 {
-    color: #f3f3f3;
+  color: #f3f3f3;
 }
 
 .lead {
-    color: #f3f3f3;
+  color: #f3f3f3;
 }
 
 .profile-img {
-    width: 18rem;
-    height: auto;
+  width: 18rem;
+  height: auto;
 }
 
 .section-main-image {
-    text-align: center;
-    margin-left: 2%;
+  text-align: center;
+  margin-left: 2%;
 }
 
 .section-main-text {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .section-title-block {
-    text-align: center;
-    font-family: Athelas;
+  text-align: center;
+  font-family: Athelas;
 }
 
 .section-title-css {
-    font-size: 40px;
-    margin-left: 10px;
+  font-size: 40px;
+  margin-left: 10px;
 }
 
 .section-title {
-    margin: 4%;
-    width: 89%;
+  margin: 4%;
+  width: 89%;
 }
 
 .card {
-    margin: 5%;
+  margin: 5%;
 }
 
 .card-header {
-    text-align: center;
-    font-size: 120%;
-    background-color: #ffffff;
-
+  text-align: center;
+  font-size: 120%;
+  background-color: #ffffff;
 }
 .star {
-    font-family: "Font Awesome 5 Free";
-    font-size: 15px;
-    color: #212529;
-  }
-  .star:before {
-    font-weight: 900;
-  }
-  .star:after {
-    font-weight: 400;
-  }
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  color: #212529;
+}
+.star:before {
+  font-weight: 900;
+}
+.star:after {
+  font-weight: 400;
+}
 
-  .star[data-rate="1.0"]:before{ content: "\f005"; }
+.star[data-rate="1.0"]:before {
+  content: "\f005";
+}
 
-  .star[data-rate="1.0"]:after{ content: "\f005\f005\f005\f005"; }
+.star[data-rate="1.0"]:after {
+  content: "\f005\f005\f005\f005";
+}
 
-  .star[data-rate="3.0"]:before { content: "\f005\f005\f005"; }
+.star[data-rate="3.0"]:before {
+  content: "\f005\f005\f005";
+}
 
-  .star[data-rate="3.0"]:after{ content: "\f005\f005"; }
+.star[data-rate="3.0"]:after {
+  content: "\f005\f005";
+}
 
-  .star[data-rate="4.0"]:before{ content: "\f005\f005\f005\f005"; }
+.star[data-rate="4.0"]:before {
+  content: "\f005\f005\f005\f005";
+}
 
-  .star[data-rate="4.0"]:after{ content: "\f005"; }
+.star[data-rate="4.0"]:after {
+  content: "\f005";
+}
 
-  table {
-    table-layout: fixed;
-    width: 100%;
- }
+table {
+  table-layout: fixed;
+  width: 100%;
+}
 
- th {
-     text-align: center;
-     padding: 1%;
- }
+th {
+  text-align: center;
+  padding: 1%;
+}
 
- td {
-     text-align: center;
-     padding: 1%;
- }
+td {
+  text-align: center;
+  padding: 1%;
+}
 
- .contact {
-     text-align: center;
- }
+.contact {
+  text-align: center;
+}
 
- .contact-img {
-     width: 15rem;
-     height: auto;
- }
+.contact-img {
+  width: 15rem;
+  height: auto;
+}
 
- .contact-twitter{
-     text-align: center;
-     padding-right: 3%;
- }
+.contact-twitter {
+  text-align: center;
+  padding-right: 3%;
+}
 
- .contact-p {
-     text-align: center;
-     margin: 1rem;
- }
+.contact-p {
+  text-align: center;
+  margin: 1rem;
+}
 
- #footer {
-    background-color: #242229;
-    text-align: center;
-    color: #f3f3f3;
-    padding: 1%;
-    margin-top: 6%;
+#footer {
+  background-color: #242229;
+  text-align: center;
+  color: #f3f3f3;
+  padding: 1%;
+  margin-top: 6%;
 }
 
 .footer-link ul {
-    padding: 1%;
+  padding: 1%;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
 .footer-link a {
-    text-decoration: none;
-    color: #f3f3f3 ;
-    margin: 3%;
-    
+  text-decoration: none;
+  color: #f3f3f3;
+  margin: 3%;
 }
 
 a :link {
-    color: #f3f3f3;
+  color: #f3f3f3;
 }
 
 a :visited {
-    color: #f3f3f3;
+  color: #f3f3f3;
 }
 
 a:hover {
-    text-decoration:underline;
+  text-decoration: underline;
 }
 
 .inner p {
-    font-size: 0.5rem;
-    margin: auto;
+  font-size: 0.5rem;
+  margin: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
